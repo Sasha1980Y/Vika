@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main">
+
+    <TextView
+        android:id="@+id/textView500"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/coup500"
+        android:textAlignment="center"
+        android:textSize="30sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView200"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="@string/coup200"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/textView500"
+        app:layout_constraintTop_toBottomOf="@+id/textView500" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="@string/coup100"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/textView200"
+        app:layout_constraintTop_toBottomOf="@+id/textView200" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="@string/coup50"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/textView200"
+        app:layout_constraintTop_toBottomOf="@+id/textView100" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="@string/coup20"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/textView200"
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="@string/coup10"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/textView200"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="@string/coup5"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/textView200"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="@string/coup2"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/textView200"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="@string/coup1"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/textView200"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/editText500"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="@string/editText500"
+        android:inputType="number"
+        android:singleLine="false"
+        android:text="@string/editText500"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:imeOptions = "actionDone"
+        app:layout_constraintStart_toEndOf="@+id/textView500"
+        app:layout_constraintTop_toTopOf="@+id/textView500"
+        tools:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText200"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="@string/editText200"
+        android:inputType="number"
+        android:singleLine="false"
+        android:text="@string/editText200"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:imeOptions = "actionDone"
+        app:layout_constraintStart_toEndOf="@+id/textView200"
+        app:layout_constraintTop_toBottomOf="@+id/editText500"
+        tools:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText100"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="@string/editText100"
+        android:inputType="number"
+        android:singleLine="false"
+        android:text="@string/editText100"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:imeOptions = "actionDone"
+        app:layout_constraintStart_toEndOf="@+id/textView200"
+        app:layout_constraintTop_toBottomOf="@+id/editText200"
+        tools:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText50"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="@string/editText50"
+        android:inputType="number"
+        android:singleLine="false"
+        android:text="@string/editText50"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:imeOptions = "actionDone"
+        app:layout_constraintStart_toEndOf="@+id/textView200"
+        app:layout_constraintTop_toBottomOf="@+id/editText100"
+        tools:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText20"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="@string/editText20"
+        android:inputType="number"
+        android:singleLine="false"
+        android:text="@string/editText20"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:imeOptions = "actionDone"
+        app:layout_constraintStart_toEndOf="@+id/textView200"
+        app:layout_constraintTop_toBottomOf="@+id/editText50"
+        tools:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="@string/editText10"
+        android:inputType="number"
+        android:singleLine="false"
+        android:text="@string/editText10"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:imeOptions = "actionDone"
+        app:layout_constraintStart_toEndOf="@+id/textView200"
+        app:layout_constraintTop_toBottomOf="@+id/editText20"
+        tools:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="@string/editText5"
+        android:inputType="number"
+        android:singleLine="false"
+        android:text="@string/editText5"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:imeOptions = "actionDone"
+        app:layout_constraintStart_toEndOf="@+id/textView200"
+        app:layout_constraintTop_toBottomOf="@+id/editText10"
+        tools:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="@string/editText2"
+        android:inputType="number"
+        android:singleLine="false"
+        android:text="@string/editText2"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:imeOptions = "actionDone"
+        app:layout_constraintStart_toEndOf="@+id/textView200"
+        app:layout_constraintTop_toBottomOf="@+id/editText5"
+        tools:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="@string/editText1"
+        android:inputType="number"
+        android:singleLine="false"
+        android:text="@string/editText1"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:imeOptions = "actionDone"
+        app:layout_constraintStart_toEndOf="@+id/textView200"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        tools:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView500eq"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/eq500"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/editText500"
+        app:layout_constraintTop_toTopOf="@+id/editText500" />
+
+    <TextView
+        android:id="@+id/textView200eq"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/eq200"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/editText200"
+        app:layout_constraintTop_toBottomOf="@+id/textView500eq" />
+
+    <TextView
+        android:id="@+id/textView200eq2"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/eq200"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/editText200"
+        app:layout_constraintTop_toBottomOf="@+id/textView200eq7" />
+
+    <TextView
+        android:id="@+id/textView200eq8"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/eq200"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/editText200"
+        app:layout_constraintTop_toBottomOf="@+id/textView200eq2" />
+
+    <TextView
+        android:id="@+id/textView200eq7"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/eq200"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/editText200"
+        app:layout_constraintTop_toBottomOf="@+id/textView200eq6" />
+
+    <TextView
+        android:id="@+id/textView200eq6"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/eq200"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/editText200"
+        app:layout_constraintTop_toBottomOf="@+id/textView200eq5" />
+
+    <TextView
+        android:id="@+id/textView200eq5"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/eq200"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/editText200"
+        app:layout_constraintTop_toBottomOf="@+id/textView200eq4" />
+
+    <TextView
+        android:id="@+id/textView200eq4"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/eq200"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/editText200"
+        app:layout_constraintTop_toBottomOf="@+id/textView200eq3" />
+
+    <TextView
+        android:id="@+id/textView200eq3"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/eq200"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/editText200"
+        app:layout_constraintTop_toBottomOf="@+id/textView200eq" />
+
+    <TextView
+        android:id="@+id/textView500Summ"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/summ500"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/textView500eq"
+        app:layout_constraintTop_toTopOf="@+id/textView500eq" />
+
+    <TextView
+        android:id="@+id/textView200Summ"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/summ200"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/textView200eq"
+        app:layout_constraintTop_toBottomOf="@+id/textView500Summ" />
+
+    <TextView
+        android:id="@+id/textView100Summ"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/summ100"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/textView200eq"
+        app:layout_constraintTop_toBottomOf="@+id/textView200Summ" />
+
+    <TextView
+        android:id="@+id/textView50Summ"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/summ50"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/textView200eq"
+        app:layout_constraintTop_toBottomOf="@+id/textView100Summ" />
+
+    <TextView
+        android:id="@+id/textView20Summ"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/summ20"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/textView200eq"
+        app:layout_constraintTop_toBottomOf="@+id/textView50Summ" />
+
+    <TextView
+        android:id="@+id/textView10Summ"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/summ10"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/textView200eq"
+        app:layout_constraintTop_toBottomOf="@+id/textView20Summ" />
+
+    <TextView
+        android:id="@+id/textView5Summ"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/summ5"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/textView200eq"
+        app:layout_constraintTop_toBottomOf="@+id/textView10Summ" />
+
+    <TextView
+        android:id="@+id/textView2Summ"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/summ2"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/textView200eq"
+        app:layout_constraintTop_toBottomOf="@+id/textView5Summ" />
+
+    <TextView
+        android:id="@+id/textView1Summ"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/summ1"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/textView200eq"
+        app:layout_constraintTop_toBottomOf="@+id/textView2Summ" />
+
+    <TextView
+        android:id="@+id/countCoupure"
+        android:layout_width="100dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/countCoupure"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/buttonSumm"
+        app:layout_constraintTop_toBottomOf="@+id/editText1" />
+
+    <TextView
+        android:id="@+id/allSumm"
+        android:layout_width="100dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/allSumm"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/textView200eq8"
+        app:layout_constraintTop_toBottomOf="@+id/textView1Summ" />
+
+    <Button
+        android:id="@+id/buttonSumm"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/summ"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+</android.support.constraint.ConstraintLayout>

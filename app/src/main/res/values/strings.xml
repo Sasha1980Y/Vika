@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Vika Yakovenko</string>
+    <string name="coup500">500 x </string>
+    <string name="equals">=</string>
+    <string name="summ">Summ</string>
+    <string name="summ500">0</string>
+    <string name="coup200">200 x</string>
+    <string name="editText200"></string>
+    <string name="coup100">100 x</string>
+    <string name="editText500"></string>
+    <string name="eq500">=</string>
+    <string name="eq200">=</string>
+    <string name="summ200">0</string>
+    <string name="coup20">20 x</string>
+    <string name="coup10">10 x</string>
+    <string name="coup5">5 x</string>
+    <string name="coup2">2 x</string>
+    <string name="coup1">1 x</string>
+    <string name="editText100" />
+    <string name="editText20" />
+    <string name="coup50">50 x</string>
+
+    <string name="editText50" />
+
+    <string name="editText10" />
+    <string name="editText5" />
+    <string name="editText2" />
+    <string name="editText1" />
+    <string name="summ100">0</string>
+    <string name="summ50">0</string>
+    <string name="summ20">0</string>
+    <string name="summ10">0</string>
+    <string name="summ5">0</string>
+    <string name="summ2">0</string>
+    <string name="summ1">0</string>
+    <string name="countCoupure">0</string>
+    <string name="allSumm">0</string>
+</resources>
